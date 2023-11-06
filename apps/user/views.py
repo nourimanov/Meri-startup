@@ -9,3 +9,4 @@ class UserViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.UserSerializer
     permission_classes = AllowAny,
  
+ 
