@@ -8,3 +8,4 @@ class UserViewSet(viewsets.ModelViewSet):
     queryset = models.UserModel.objects.all()
     serializer_class = serializers.UserSerializer
     permission_classes = AllowAny,
+ 
